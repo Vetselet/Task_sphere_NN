@@ -1,7 +1,7 @@
 # Task_sphere_NN
-\textbf{Solving a classification/regression issue. Search for an alternative criterion for better separation of extensive air showers events by primary masses on the data SPHERE-2 experiment.}
+<Solving a classification/regression issue. Search for an alternative criterion for better separation of extensive air showers events by primary masses on the data SPHERE-2 experiment.>bold
 
-\textbf{Решение задачи классификации/регрессии. Поиск альтернативного критерия для лучшего разделения событий широких атмосферных ливней по первичным массам на данных эксперимента СФЕРА-2.}
+<Решение задачи классификации/регрессии. Поиск альтернативного критерия для лучшего разделения событий широких атмосферных ливней по первичным массам на данных эксперимента СФЕРА-2.>bold
 
 Существуют исходные данные, полученные в результате моделирования событий широких атмосферных ливней. Поскольку их объем очень велик, Github не позволяет их внести. Вскоре они будут перенесены на Google Disk.
 Исходные данные преобразуются в данные, которые будут поданы на вход нейронной сети, с помощью программы [Data_sphere_10-20_to_maps.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/Data_sphere_10-20_to_maps.ipynb).
