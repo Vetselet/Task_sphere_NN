@@ -16,6 +16,6 @@
 
 В результате получается решение задачи регрессии.
 Полученные данные о регрессии для большого числа событий представляют собой альтернативу классическому критерию, которая необходима для восстановления массы первичной частицы, образовавшей широкий атмосферный ливень.
-Выход нейронной сети и истинные типы частиц зафиксированы в таблице [predicctions_NN_lnA.csv](https://github.com/Vetselet/Task_sphere_NN/blob/main/predicctions_NN_lnA.csv).
+Выход нейронной сети и истинные типы частиц зафиксированы в таблице [predictions_NN_lnA.csv](https://github.com/Vetselet/Task_sphere_NN/blob/main/predictions_NN_lnA.csv). 
 
 Данные полученной таблицы подаются на вход в программу [method_mass_reconstruction.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb) для восстановления средней массы по выборке событий.
