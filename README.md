@@ -7,7 +7,7 @@ Classification/regression issue. Search for an alternative criterion for better 
 
 Полученные преобразованные данные хранятся в папках на Google Disk
 
-https://drive.google.com/drive/folders/1Avlm3dYyPC1Rwx6POeY_K8bTmsunCST3?usp=drive_link. 
+[https://drive.google.com/drive/folders/1Avlm3dYyPC1Rwx6POeY_K8bTmsunCST3?usp=drive_link. ](https://drive.google.com/drive/folders/1Avlm3dYyPC1Rwx6POeY_K8bTmsunCST3?usp=sharing)
 
 https://drive.google.com/drive/folders/14b8fn_2X3asCzp-rxP-lPI0b7qsscyz8?usp=sharing
 
