@@ -3,7 +3,7 @@ Classification/regression issue. Search for an alternative criterion for better 
 
 Существуют исходные данные, полученные в результате моделирования событий широких атмосферных ливней. Поскольку их объем очень велик, Github не позволяет их внести. Вскоре они будут перенесены на Google Disk.
 
-Исходные данные преобразуются в данные, которые будут поданы на вход нейронной сети, с помощью программы [Data_sphere_10-20.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/Data_sphere_10-20.ipynb)
+Исходные данные преобразуются в данные, которые будут поданы на вход нейронной сети, с помощью программы [Data_sphere_10-20_to_maps.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/Data_sphere_10-20_to_maps.ipynb)  
 
 Полученные преобразованные данные хранятся в папках на Google Disk
 
