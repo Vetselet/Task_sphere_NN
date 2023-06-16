@@ -3,15 +3,17 @@ Classification/regression issue. Search for an alternative criterion for better 
 
 Существуют исходные данные, полученные в результате моделирования событий широких атмосферных ливней. Поскольку их объем очень велик, Github не позволяет их внести. Вскоре они будут перенесены на Google Disk.
 
-Исходные данные преобразуются в данные, которые будут поданы на вход нейронной сети, с помощью программы Data_sphere_10-20.ipynb
+Исходные данные преобразуются в данные, которые будут поданы на вход нейронной сети, с помощью программы [Data_sphere_10-20.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/Data_sphere_10-20.ipynb)
 
-Полученные преобразованные данные хранятся в папках на Google Disk (https://drive.google.com/drive/folders/1Avlm3dYyPC1Rwx6POeY_K8bTmsunCST3?usp=drive_link). 
+Полученные преобразованные данные хранятся в папках на Google Disk
 
-Они представляют из себя одну колонку, которую следуюет перевести в массив ()
+https://drive.google.com/drive/folders/1Avlm3dYyPC1Rwx6POeY_K8bTmsunCST3?usp=drive_link. 
 
-Предобработанные данные подаются на вход нейронной сети в программе ...
+https://drive.google.com/drive/folders/14b8fn_2X3asCzp-rxP-lPI0b7qsscyz8?usp=sharing
 
-В результате получается решение задачи классификации или регрессии, в зависимости от того, что поставить в вывод нейронной сети.
+Предобработанные данные подаются на вход нейронной сети в программе [Baseline_NN_sphere_mass_10_20_from_GC.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/Baseline_NN_sphere_mass_10_20_from_GC.ipynb)
+
+В результате получается решение задачи регрессии.
 
 Полученные данные о регрессии для большого числа событий представляют собой альтернативный критерий, который необходим для восстановления массы первичной частицы, образовавшей широкий атмосферный ливень.
 
