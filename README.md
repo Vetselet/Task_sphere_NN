@@ -3,6 +3,7 @@
 
 **Решение задачи классификации/регрессии. Поиск альтернативного критерия для лучшего разделения событий широких атмосферных ливней по первичным массам на данных эксперимента СФЕРА-2.**
 
+
 ## Предобработка данных
 
 ### Входные данные
@@ -15,7 +16,13 @@
 Полученные преобразованные данные хранятся в папках на Google Disk: [https://drive.google.com/data_to_NN_q1_900_10PeV_10-20](https://drive.google.com/drive/folders/1Avlm3dYyPC1Rwx6POeY_K8bTmsunCST3?usp=sharing), 
 [https://drive.google.com/data_to_NN_q2_900_10PeV_10-20](https://drive.google.com/drive/folders/14b8fn_2X3asCzp-rxP-lPI0b7qsscyz8?usp=sharing).
 
+
 ## Использование нейросети
+
+### Входные данные
+
+В качестве входных данных используются ... (полученные после предобработки данных)
+В модели они загружаются в главе **"Загрузка данных"**, там необходимо подставить пути директорий, в которых у вас хранятся входные данные.
 
 Предобработанные данные подаются на вход нейронной сети в программе [Baseline_NN_sphere_mass_10_20.ipynb](https://colab.research.google.com/github/Vetselet/Task_sphere_NN/blob/main/Baseline_NN_sphere_mass_10_20.ipynb).
 
@@ -23,6 +30,7 @@
 
 Есть сохраненные веса модели нейронной сети, расположенные в файле [model_weights_5_q1q2.pth](https://github.com/Vetselet/Task_sphere_NN/blob/main/model_weights_5_q1q2.pth).
 В программе [Baseline_NN_sphere_mass_10_20.ipynb](https://colab.research.google.com/github/Vetselet/Task_sphere_NN/blob/main/Baseline_NN_sphere_mass_10_20.ipynb) есть вызов сохраненной модели.
+
 
 ## Переход от полученных параметров к массе частиц
 
