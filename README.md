@@ -28,16 +28,16 @@
 В главе **"Загрузка данных"** необходимо подставить верные пути директорий в переменные: direct_q1, direct_q2, direct_out_model.
 
 ### Выходные данные
-Выходной файл [Norm_Baseline_NN_sphere_mass_10-20](https://github.com/Vetselet/Task_sphere_NN/blob/main/Norm_Baseline_NN_sphere_mass_10-20.ipynb) содержит в себе информацию о предсказанной массе частиц (pred), о модельной массе частиц (y) и о смоделированном типе частицы.
+Выходной файл [predictions_NN_lnA_norm](https://github.com/Vetselet/Task_sphere_NN/blob/main/predictions_NN_lnA_norm.csv) содержит в себе информацию о предсказанной массе частиц (pred), о модельной массе частиц (y) и о смоделированном типе частицы.
 
 P.S. Есть сохраненные веса модели нейронной сети, расположенные в файле [model_weights_5_q1q2](https://github.com/Vetselet/Task_sphere_NN/blob/main/model_weights_5_q1q2_norm.pth).
-В программе [Baseline_NN_sphere_mass_10_20.ipynb](https://colab.research.google.com/github/Vetselet/Task_sphere_NN/blob/main/Baseline_NN_sphere_mass_10_20.ipynb) есть вызов сохраненной модели, чтобы не ждать 15 минут просчет нейронной сети.
+В программе []() есть вызов сохраненной модели, чтобы не ждать 15 минут просчет нейронной сети.
 
 
 ## III Переход от полученных параметров к усредненной массе частиц
 ### Входные данные
 Полученные данные по регрессии для большого числа событий представляют собой альтернативу классическому критерию, которая необходима для восстановления массы первичной частицы, образовавшей широкий атмосферный ливень.
-Выход нейронной сети и истинные типы частиц зафиксированы в таблице [predictions_NN_lnA.csv](https://github.com/Vetselet/Task_sphere_NN/blob/main/predictions_NN_lnA.csv). 
+Выход нейронной сети и истинные типы частиц зафиксированы в таблице [predictions_NN_lnA_norm](https://github.com/Vetselet/Task_sphere_NN/blob/main/predictions_NN_lnA_norm.csv). 
 
 ### Процесс
 Данные из полученной на II этапе таблицы подаются на вход в программу [method_mass_reconstruction.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb) для восстановления средней массы по выборке событий.
