@@ -40,10 +40,10 @@ P.S. Есть сохраненные веса модели нейронной с
 Выход нейронной сети и истинные типы частиц зафиксированы в таблице [predictions_NN_lnA_norm](https://github.com/Vetselet/Task_sphere_NN/blob/main/predictions_NN_lnA_norm.csv). 
 
 ### Процесс
-Данные из полученной на II этапе таблицы подаются на вход в программу [method_mass_reconstruction.ipynb](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb) для восстановления средней массы по выборке событий.
+Данные из полученной на II этапе таблицы подаются на вход в программу [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb) для восстановления средней массы по выборке событий.
 
 ### Выходные данные
-Выходными данными являются графики в программе [](), на которых видно, что такой подход позволяет оценить массы первичных частиц.
+Выходными данными являются графики в программе [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb), на которых видно, что такой подход позволяет оценить массы первичных частиц.
 
 ## Статья
 
