@@ -30,7 +30,7 @@
 ### Выходные данные
 Выходной файл [Norm_Baseline_NN_sphere_mass_10-20](https://github.com/Vetselet/Task_sphere_NN/blob/main/Norm_Baseline_NN_sphere_mass_10-20.ipynb) содержит в себе информацию о предсказанной массе частиц (pred), о модельной массе частиц (y) и о смоделированном типе частицы.
 
-P.S. Есть сохраненные веса модели нейронной сети, расположенные в файле [model_weights_5_q1q2.pth](https://github.com/Vetselet/Task_sphere_NN/blob/main/model_weights_5_q1q2.pth).
+P.S. Есть сохраненные веса модели нейронной сети, расположенные в файле [model_weights_5_q1q2](https://github.com/Vetselet/Task_sphere_NN/blob/main/model_weights_5_q1q2_norm.pth).
 В программе [Baseline_NN_sphere_mass_10_20.ipynb](https://colab.research.google.com/github/Vetselet/Task_sphere_NN/blob/main/Baseline_NN_sphere_mass_10_20.ipynb) есть вызов сохраненной модели, чтобы не ждать 15 минут просчет нейронной сети.
 
 
