@@ -27,7 +27,7 @@
 В качестве входных данных используются выходные данные первого этапа.
 
 #### Процесс
-Решение задачи классификации на два и на три ядра с помощью нейронной сети происходит в программах [Norm_Baseline_NN_sphere_mass_10-20](https://github.com/Vetselet/Task_sphere_NN/blob/main/Norm_Baseline_NN_sphere_mass_10-20.ipynb). 
+Решение задачи классификации на два и на три ядра с помощью нейронной сети происходит в программах [Baseline_sphere_classification_2core](https://github.com/Vetselet/Task_sphere_NN/blob/main/Baseline_sphere_classification_2core.ipynb) и [Baseline_sphere_classification_3core](https://github.com/Vetselet/Task_sphere_NN/blob/main/Baseline_sphere_classification_3core.ipynb). 
 В главе **"Загрузка данных"** необходимо подставить верные пути директорий в переменные: _direct_q1_, _direct_q2_.
 
 #### Выходные данные
