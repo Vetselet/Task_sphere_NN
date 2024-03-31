@@ -47,7 +47,7 @@ P.S. Есть сохраненные веса модели нейронной с
 Необходимо написать правильный путь к файлу в переменную _file_predictions_
 
 ### Выходные данные
-Выходными данными являются графики в программе [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb), на которых видно, что такой подход позволяет оценить массы первичных частиц с точностью разделения 0.27 на три группы (легкие, средние и тяжелые ядра).
+Выходными данными являются графики в программе [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb), на которых видно, что такой подход позволяет оценить среднюю массу по выборкам с точностью 1.17 а.е.м.
 
 ## Статья
 
