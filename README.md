@@ -61,6 +61,11 @@ P.S. Есть сохраненные веса модели нейронной с
 ### Выходные данные
 Выходными данными являются графики в программе [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb), на которых видно, что такой подход позволяет оценить среднюю массу по выборкам с точностью 1.17 а.е.м.
 
+##
+Расчеты, связанные с традиционным критерием можно посмотреть на странице: [SHERE-2_from_appro_to_mass](https://github.com/Vetselet/SHERE-2_from_appro_to_mass)
+
+Средние массы традиционным методом оцениваются в программе [Average_mass_with_optimization_q1q2](https://github.com/Vetselet/SHERE-2_from_appro_to_mass/blob/main/Average_mass_with_optimization_q1q2.ipynb)
+
 ## Статья
 
 Подробный алгоритм действий и физическое обоснование представлено в статье [Latypova2023_MUPB](https://github.com/Vetselet/Task_sphere_NN/blob/main/Latypova2023_MUPB.pdf).
