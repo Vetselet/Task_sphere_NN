@@ -20,18 +20,20 @@
 
 
 ## II Использование нейронной сети
+Реализация этого этапа происходит в _google Colab_.
+
 ### Входные данные
 В качестве входных данных используются выходные данные первого этапа.
 
 ### Процесс
 Решение задачи регресси с помощью нейронной сети происходит в програме [Norm_Baseline_NN_sphere_mass_10-20](https://github.com/Vetselet/Task_sphere_NN/blob/main/Norm_Baseline_NN_sphere_mass_10-20.ipynb). 
-В главе **"Загрузка данных"** необходимо подставить верные пути директорий в переменные: direct_q1, direct_q2, direct_out_model.
+В главе **"Загрузка данных"** необходимо подставить верные пути директорий в переменные: _direct_q1_, _direct_q2_, _direct_out_model_.
 
 ### Выходные данные
 Выходной файл [predictions_NN_lnA_norm](https://github.com/Vetselet/Task_sphere_NN/blob/main/predictions_NN_lnA_norm.csv) содержит в себе информацию о предсказанной массе частиц (pred), о модельной массе частиц (y) и о смоделированном типе частицы.
 
 P.S. Есть сохраненные веса модели нейронной сети, расположенные в файле [model_weights_5_q1q2](https://github.com/Vetselet/Task_sphere_NN/blob/main/model_weights_5_q1q2_norm.pth).
-В программе []() есть вызов сохраненной модели, чтобы не ждать 15 минут просчет нейронной сети.
+В программе [Norm_Baseline_NN_sphere_mass_10-20](https://github.com/Vetselet/Task_sphere_NN/blob/main/Norm_Baseline_NN_sphere_mass_10-20.ipynb) есть вызов сохраненной модели, чтобы не ждать 15 минут просчет нейронной сети.
 
 
 ## III Переход от полученных параметров к усредненной массе частиц
@@ -42,8 +44,10 @@ P.S. Есть сохраненные веса модели нейронной с
 ### Процесс
 Данные из полученной на II этапе таблицы подаются на вход в программу [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb) для восстановления средней массы по выборке событий.
 
+Необходимо написать правильный путь к файлу в переменную _file_predictions_
+
 ### Выходные данные
-Выходными данными являются графики в программе [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb), на которых видно, что такой подход позволяет оценить массы первичных частиц.
+Выходными данными являются графики в программе [method_mass_reconstruction](https://github.com/Vetselet/Task_sphere_NN/blob/main/method_mass_reconstruction.ipynb), на которых видно, что такой подход позволяет оценить массы первичных частиц с точностью разделения 0.27 на три группы (легкие, средние и тяжелые ядра).
 
 ## Статья
 
